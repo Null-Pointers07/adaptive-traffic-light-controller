@@ -1,4 +1,4 @@
-module alu (input [5:0] density,
+module duration_decoder (input [5:0] density,
             output reg [5:0] duration)
     always @(*) begin
     if(density<=20)
