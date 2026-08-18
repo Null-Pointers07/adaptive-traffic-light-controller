@@ -1,5 +1,5 @@
-module alu (input [5:0] density,
-            output reg [5:0] duration)
+module duration_decoder (input [5:0] density,
+                         output reg [5:0] duration);
     always @(*) begin
     if(density<=20)
     duration = 30;
